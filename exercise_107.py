@@ -38,7 +38,7 @@ while order_count != 0:
         order_count -= 1
         continue
 
-# print(f"So you would like: {food_order}")
+print(f"So you would like: {food_order}")
 
 
 # I need to print each item from the list
