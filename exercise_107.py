@@ -25,7 +25,7 @@ food_order = []
 for format in menu:
     new_menu.append(format.capitalize())
 
-print(f"Here is your menu: {new_menu}")
+print(f"Here is your formated menu: {new_menu}")
 
 
 
