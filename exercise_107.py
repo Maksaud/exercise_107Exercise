@@ -27,6 +27,18 @@ for format in menu:
 
 print(f"Here is your formated menu: {new_menu}")
 
+order_count = 3
+while order_count != 0:
+    if order_count == 3:
+        food_order.append(input(f'What would you like? '))
+        order_count -= 1
+        continue
+    else:
+        food_order.append(input(f'what else? '))
+        order_count -= 1
+        continue
+
+# print(f"So you would like: {food_order}")
 
 
 # I need to print each item from the list
